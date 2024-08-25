@@ -1,49 +1,47 @@
 # Credit Card Customer Report
-![Screenshot 2024-08-18 151126](https://github.com/user-attachments/assets/2b1f657f-d5bf-4468-a6a4-6578379d89d5)
 
-This project is an interactive dashboard providing insights into credit card customer behavior and revenue trends. It helps businesses understand key metrics like revenue, income, and customer demographics.
+## Overview
 
-## Key Features
+The Credit Card Customer Report project is a data analysis and visualization project aimed at understanding customer behavior, revenue generation, and demographic trends for a fictional credit card company. This project uses SQL for data extraction and transformation and Power BI for creating interactive visualizations. The goal is to provide insights and actionable information that can help optimize credit card offerings, enhance customer satisfaction, and improve overall business performance.
 
-- **Total Revenue**: Overall revenue generated from credit card customers.
-- **Total Interest Earned**: Total interest collected from credit card transactions.
-- **Total Income**: Aggregate income from all credit card-related activities.
-- **Customer Segmentation Score (CS)**: A score to classify customers based on income, spending habits, and credit usage.
+## Project Components
 
-## Dashboard Highlights
+### 1. Data Acquisition
 
-- **Revenue by Month, Day, and Gender**: Track monthly revenue trends by gender.
-- **Revenue by Group Age**: See which age groups generate the most revenue.
-- **Client Number by Group Income**: Understand the distribution of clients across different income levels.
-- **Revenue by State**: Identify revenue contributions by state.
-- **Revenue by Education Level**: Explore how education level affects spending.
-- **Revenue by Marital Status**: Compare revenue from different marital status groups.
-- **Client Number by Card Category**: View client distribution by credit card type.
-- **Client Number by Gender**: See the gender breakdown of credit card customers.
+The project starts with the collection of raw data from various sources. This data includes customer demographics, transaction history, credit card usage patterns, and more. The data can be obtained from SQL databases, CSV files, or other data storage systems.
 
-## Data Source
+### 2. Data Transformation with SQL
 
-The dashboard uses data from credit card transaction records and customer profiles, providing insights into demographics, spending patterns, and income.
+SQL (Structured Query Language) is used to clean, filter, and transform the raw data into a suitable format for analysis. This involves tasks such as joining tables, aggregating data, handling missing values, and creating calculated fields to derive meaningful metrics.
 
-## How to Use
+### 3. Data Analysis
 
-1. **Download Files**: Download the `.pbix` and `.csv` files from the repository.
-2. **Open in Power BI**: Open the `.pbix` file in Power BI Desktop or another compatible tool.
-3. **Load Data**: Load the `Customers_Data.csv` file to refresh data in the dashboard.
-4. **Explore**: Use the dashboard filters and visuals to explore the data and gain insights.
+After preparing the data, SQL queries are utilized to perform comprehensive data analysis, which includes:
 
-## Requirements
+- Identifying the most profitable customer segments.
+- Analyzing revenue trends by month, gender, age, and location.
+- Evaluating the performance of different credit card categories.
+- Assessing the impact of customer demographics on spending and credit card usage.
 
-- Power BI Desktop or a similar data visualization tool.
-- Basic knowledge of data visualization and analysis.
+### 4. Power BI Visualization
 
-## Getting Started
+Power BI is used to create interactive and detailed visualizations that illustrate the insights obtained from the data analysis. The visualizations include:
 
-1. Clone this repository.
-2. Open the dashboard file in Power BI.
-3. Load the CSV data file.
-4. Start exploring the data to discover trends and insights!
+- Line charts and bar charts showing revenue trends and customer segmentation.
+- Geographic maps highlighting revenue distribution across different states.
+- Dashboards summarizing key metrics like total revenue, interest earned, and customer distribution by various categories.
 
-## Conclusion
+### Power BI Visualization
 
-This dashboard is a powerful tool for visualizing credit card customer data, helping you make data-driven decisions and understand your customer base better.
+
+![Dashboard](https://github.com/user-attachments/assets/2b1f657f-d5bf-4468-a6a4-6578379d89d5)
+
+### 5. Insights and Recommendations
+
+Based on the data analysis and visualizations, actionable insights and recommendations are provided. These insights help the credit card company make data-driven decisions to enhance marketing strategies, improve product offerings, and increase customer engagement and satisfaction.
+
+## Dependencies
+
+- SQL database or data source
+- Power BI Desktop
+
