@@ -4,6 +4,9 @@
 
 The Credit Card Customer Report project is a data analysis and visualization project aimed at understanding customer behavior, revenue generation, and demographic trends for a fictional credit card company. This project uses SQL for data extraction and transformation and Power BI for creating interactive visualizations. The goal is to provide insights and actionable information that can help optimize credit card offerings, enhance customer satisfaction, and improve overall business performance.
 
+### Power BI Visualization
+![Dashboard](https://github.com/user-attachments/assets/2b1f657f-d5bf-4468-a6a4-6578379d89d5)
+
 ## Project Components
 
 ### 1. Data Acquisition
@@ -31,10 +34,6 @@ Power BI is used to create interactive and detailed visualizations that illustra
 - Geographic maps highlighting revenue distribution across different states.
 - Dashboards summarizing key metrics like total revenue, interest earned, and customer distribution by various categories.
 
-### Power BI Visualization
-
-
-![Dashboard](https://github.com/user-attachments/assets/2b1f657f-d5bf-4468-a6a4-6578379d89d5)
 
 ### 5. Insights and Recommendations
 
